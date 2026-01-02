@@ -14,9 +14,16 @@
 true => 1; false => 0;
 */
 
-let isLoggedIn = 1;
+let isLoggedIn = "hitesh";
 
 let boolIsLoggedIn = Boolean(isLoggedIn);
 console.log(boolIsLoggedIn);
+
+/*
+"" => false
+1,0 => true,false
+"Pratyush" => true 
+*/
+
 
 
