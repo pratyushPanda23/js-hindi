@@ -13,6 +13,30 @@ let myObj={
 }
 
 const myFunction= function(){
-    console.log("Hello World!");
+    // console.log("Hello World!");
     
 }
+
+
+//Stack memory mai Primitive use hota h..
+//for heap -> Non-Primitive..
+
+let myYoutubeName = "hiteshchoudhary.com"
+let anotherName = myYoutubeName
+anotherName = "chaiaurcode"
+
+// console.log(anotherName);
+// console.log(myYoutubeName);
+
+let user_1 = {
+    email: "yush@gmail.com",
+    upi:"yush@ybl"
+}
+
+let user_2 = user_1
+
+user_2.email = "hitesh@gmail.com"
+
+console.log(user_1.email);
+console.log(user_2.email);
+
